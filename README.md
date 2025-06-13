@@ -6,11 +6,9 @@ Aplikasi web sederhana yang mengimplementasikan sistem Role-Based Access Control
 
 - Autentikasi (Login/Logout)
 - Manajemen Todo (CRUD)
-- Manajemen User (Admin)
 - Manajemen Permission (Super Admin)
 - Role-Based Access Control dengan 3 level:
   - Super Admin: Akses penuh ke semua fitur
-  - Admin: Manajemen user dan todo
   - User: Manajemen todo pribadi
 
 ## Teknologi
@@ -73,7 +71,6 @@ Aplikasi web sederhana yang mengimplementasikan sistem Role-Based Access Control
 ### Hak Akses Role
 
 - super_admin: semua permission
-- admin: semua kecuali assign_permissions
 - user: hanya permission terkait todo
 
 ## Cara Menjalankan Proyek
@@ -114,10 +111,6 @@ Aplikasi web sederhana yang mengimplementasikan sistem Role-Based Access Control
    - Username: superadmin
    - Password: super123
 
-2. Admin
-   - Username: admin
-   - Password: admin123
-
-3. User
+2. User
    - Username: user
    - Password: user123
